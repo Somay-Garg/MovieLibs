@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css?family=Monsterrat:500');
+
+.header li, a, button{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #24252A;
+}
+
+h1{
+    cursor: pointer;
+    margin: 0;
+    color: #025b9d;
+}
+
+.nav__links{
+    list-style: none;
+    padding: 0%;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.login-button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.login-button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.container{
+    display: inline-flex;
+    height: 93%;
+}
+
+.scroll-parent1 {
+    position: relative;
+    width: 123%;
+    height: 65%;
+    margin: 5% 5%;
+    overflow-y: scroll;
+  }
+
+  .scroll-parent1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll-element1 {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    animation: primary 6s linear infinite;
+  }
+
+  .primary:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes primary {
+    from {
+      top: 0%;
+    }
+    to {
+      top: -100%;
+    }
+  }
+
+
+  .scroll-parent2 {
+    position: relative;
+    width: 40%;
+    height: 65%;
+    margin: 5% 5%;
+    overflow-y: scroll;
+  }
+
+  .scroll-parent2::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll-element2 {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    animation: primary2 48s linear infinite;
+  }
+  
+  @keyframes primary2 {
+    from {
+      top: 0%;
+    }
+    to {
+      top: -820%;
+    }
+  }

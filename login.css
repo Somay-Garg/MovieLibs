@@ -1,0 +1,190 @@
+.login-body{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./film-1668918_1920.jpg");
+}
+
+.header li, a, button{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #24252A;
+}
+
+h1{
+    cursor: pointer;
+    margin: 0;
+    color: #025b9d;
+}
+
+.nav__links{
+    list-style: none;
+    padding: 0%;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.signup-button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.signup-button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.form-container{
+    width: 23%;
+    height: 550px;
+    background-image: url("./headphones-4223911_1920.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-top: 24%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    border-style: solid;
+    border-color: white;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+#form-heading{
+    font-size: 40px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: black;
+}
+
+
+.form-elements{
+    width: 70%;
+    background: #f1f1f1b3;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 2% auto;
+    transition: .25s;
+}
+
+.form-elements input{
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 97%;
+    line-height: 37px;
+    font-family: "Montsrerrat", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-elements:hover{
+    border-color: #42d4f5;
+}
+
+.btn{
+    width: 70%;
+    height: 30px;
+    background: #42d4f5;
+    border-radius: 10px;
+    margin: 5% auto;
+    font-family: "Montsrerrat", sans-serif;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.btn:hover{
+    background-color: #525354;
+}
+
+#forgot-password{
+    display: block;
+    width: 70%;
+    left: 13%;
+    padding: 10px 0;
+    color: #278cbc;
+    text-align: center;
+    margin: auto;
+    transition: .4s all;
+}
+
+#forgot-password:hover{
+    background: #525354;
+    padding: 12px 1px;
+    border-radius: 10px;
+    color: white;
+}
+
+#create-account{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:260px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    transition: .4s all;
+    color: #42d4f5;
+}
+
+#create-account:hover{
+    background: #525354;
+    padding: 12px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modal{
+    background-color: white;
+    position: absolute;
+    margin-top: 13%;
+    left: 37.5%;
+    text-align: center;
+    padding: 2% 4%;
+    width: 260px;
+    border-style: solid;
+    border-color:crimson;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+#modal-img{
+    width: 40%;
+    height: 40%;
+}
