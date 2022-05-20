@@ -1,11 +1,12 @@
+This is a full stakc project which uses html, css and javascript at frontend and php, mysql at the backend.
 
         MovieLibs
         
             MovieLibs is a place where you can create your movie libraries. In other words, you create your
             own specialized libraries which consists of your favourite movies. Actually, there is a little more to it
-            that not only you can create your movie libraries but you can also share it with your friends, family or even foes                 that is so that they can know what fun they are missing by being enemies with you. It is a fun website,
+            that not only you can create your movie libraries but you can also share it with your friends, family or even foes that is so that they can know what fun               they are missing by being enemies with you. It is a fun website,
             where you create your movie libraries as many as you want based on your genre and what not. And not 
-            only that you can control whether people can see your library your not, a special thing for the introvert                   users. Simply put, you can make your library either public or private and have privacy. 
+            only that you can control whether people can see your library your not, a special thing for the introvert users. Simply put, you can make your library                 either public or private and have privacy. 
 
 
 
